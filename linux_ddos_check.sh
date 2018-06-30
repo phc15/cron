@@ -1,5 +1,5 @@
 #!/bin/sh
-notificationto='dev.app.users@gmail.com'
+notificationto=''
 # show a list of IP which haved loggin is maximum time  using net static
 # check all netstatic netstat -an of tcp udp print $5 cut -d [DELIMITER] -f [RANGE] [FILENAME] in the case field number 1(starting field) and delimiter is colon
 # get it sorted use uniq -c to count the duplicate line and sort the output
