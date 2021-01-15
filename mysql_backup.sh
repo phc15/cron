@@ -26,7 +26,7 @@ else
 	./mysql_process_monitor.sh > /dev/null 2>&1 
 fi
 
-#Backup more than 1 database
+#Backup more than one databases
 # db_array=(db1 db2)
 # for db in db_array
 # 	do mysqldump --user $user -p$password --host $host --databases $db > $backup_path/$db-$date.sql
