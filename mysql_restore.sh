@@ -7,7 +7,7 @@ db_name="random generated"
 host="localhost"
 backup_path="/path/to/backup/folder/named/mysqldump"
 
-# Create databse
+# Create a database
 mysql --user $user -p$password
 mysql -e "CREATE TABLE $db_name;"
 mysql -e "GRANT ALL PRIVILEGES ON $db_name.* TO $user@$host IDENTIFIED BY $password;"

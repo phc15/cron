@@ -1,5 +1,5 @@
 #!/bin/sh
-# This is a file for logical backup -- small db better solution.
+# For logical backup -- small db better solution.
 # DB credentials for database admin
 user="root"
 password=""
@@ -16,7 +16,7 @@ umask 177
 #Dump datbase into SQL file
 mysqldump --user $user -p$password --host $host --databases $db_name > $backup_path/$db_name-$date.sql
 
-#if script went wrong, perform backup status check using mysql_proecess_monitor.sh
+#If the script went wrong, perform backup status to check using mysql_proecess_monitor.sh
 if [[ "$?" -eq 0 ]]; then
 	echo "Backup successfully"
 else
