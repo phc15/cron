@@ -1,6 +1,5 @@
-#### MySQL Health Check ####
+### MySQL & Health Check ###
 
-####
 -   Porcess
 -   CPU usage
 -   Memory usage
