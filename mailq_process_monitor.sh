@@ -12,5 +12,3 @@ if [[ "$mailq_count" -gt "1000" ]]; then
 else
 	echo "Postfix and Mail Queue is Running"
 fi
-
-# thousand mail per day analysis

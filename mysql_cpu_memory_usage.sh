@@ -6,7 +6,7 @@ date=$(date +"%b-%d-%Y""%H:%M")
 process_id=`ps -fu $USER | grep "mysqld" | grep -v "grep" | awk '{print $2}'`
 echo "mysql process pid"  $process_id 
 
-# if sthe variable is empty "zero", then need to start mysql
+# if the variable is empty "zero", then need to start mysql
 if [[ -z "$process_id" ]]; then
 	# call mysql_process_monitor.sh
 	echo "Execute mysql_monitor.sh to check database status"
@@ -32,7 +32,7 @@ fi
 # if usage is high, consider enable the following actions to mitigate 
 
 
-# split the table in two could improve your memory usage dramatically.
+# split the table in two could improve the memory usage.
 
 
-# customize MySQL’s memory usage for your needs
+# customize MySQL’s memory usage

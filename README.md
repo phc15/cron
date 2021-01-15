@@ -1,9 +1,11 @@
-### Shell for Metrics Monitoring and Alerting #
+### Automate tasks with Shell & MySQL #
 
-### Metrics
--   Porcess count
+### Tasks
+-   Porcess Count
 -   CPU usage
 -   Memory usage
 -   Backup and restore
+
+
 
 
