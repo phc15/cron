@@ -29,10 +29,5 @@ else
 
 fi	
 
-# if usage is high, consider enable the following actions to mitigate 
-
-
-# split the table in two could improve the memory usage.
-
-
-# customize MySQL’s memory usage
+# If usage is high, find out the thread using command to show the associate threads within a givern process pidstat -t -p <mysqld_pid> 1
+# After knowing which thread consumes the most CPU usage,choose the thread and explain it for improvement 
