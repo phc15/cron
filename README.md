@@ -1,10 +1,10 @@
-### Automate tasks with Shell & MySQL #
+#### MySQL Health Check ####
 
-### Tasks
--   Porcess Count
+####
+-   Porcess
 -   CPU usage
 -   Memory usage
--   Backup and restore
+-   Backup and restore MySQL
 
 
 
