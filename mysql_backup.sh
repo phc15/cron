@@ -35,7 +35,7 @@ fi
 #OR
 #mysqldump --user $user -p$password --host $host --databases db1 db2 db3 > $backup_path/$db-$date.sql
 
-#Backup all database
+#Backup all databases
 # mysqldump -u [user] -p –all-databases > [file_name].sql
 
 #Delete files older than 60 days
